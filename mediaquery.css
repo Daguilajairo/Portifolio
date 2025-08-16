@@ -1,0 +1,140 @@
+@media screen and (max-width:1060px) {
+
+    .interface {
+        display: flex;
+        justify-content: center;
+    }
+
+    .logotipo {
+        display: none;
+
+
+    }
+
+    .menu ul {
+        display: flex;
+        gap: 20px;
+        font-size: 1.2rem;
+    }
+
+    
+    .informacoes {
+        top: 25%;
+        left: 10%;
+        max-width: 80%;
+        max-height: 50%;
+        padding: 0;
+    }
+
+    .informacoes h1 {
+        text-align: center;
+    }
+
+    .informacoes p {
+
+        font-size: 1.19rem;
+        padding: 0 1rem;
+    }
+
+    .habilidades {
+        padding: 0 0rem;
+        text-align: center;
+    }
+
+    .botao-avancar,
+    .botao-voltar {
+        font-size: 25px;
+        margin: 0;
+    }
+
+    .sobre-mim {
+        top: 25%;
+        left: 10%;
+        max-width: 80%;
+        max-height: 80%;
+        padding: 0;
+    }
+
+    .sobre-mim h1 {
+        text-align: center;
+    }
+
+    .sobre-mim p {
+
+        font-size: 1rem;
+        padding: 0 1rem;
+    }
+
+    .habilidade {
+        top: 25%;
+        left: 10%;
+        max-width: 80%;
+        max-height: 80%;
+        padding: 0;
+    }
+
+    .habilidade h1 {
+        text-align: center;
+    }
+
+    .habilidade p {
+
+        font-size: 1rem;
+        padding: 0 1rem;
+    }
+
+    .projetos {
+        top: 25%;
+        left: 10%;
+        max-width: 80%;
+        max-height: 80%;
+        padding: 0;
+    }
+
+    .projetos h1 {
+        text-align: center;
+    }
+
+    .projetos p {
+
+        font-size: 1rem;
+        padding: 0 1rem;
+    }
+
+    .contato {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 80%;
+        max-height: 80%;
+        padding: 2rem 1rem;
+    }
+
+    .contato h1 {
+        text-align: center;
+    }
+
+    .contato p {
+
+        font-size: 1rem;
+        padding: 0 1rem;
+    }
+
+
+
+}
+
+@media screen and (min-width: 1059px) and (max-width: 1400px) {
+    .contato,
+    .informacoes,
+    .sobre-mim,
+    .habilidade,
+    .projetos {
+        position: absolute;
+        top: 40%; /* ajusta a altura central */
+        left: 50%;
+        transform: translateX(-50%);
+        max-width: 70%;
+        padding: 1rem;
+    }
+}
